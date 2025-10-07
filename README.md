@@ -6,7 +6,7 @@ In any corporate network, the Layer 2 access layer is the frontline. It's where 
 The objective of this project was to take a standard, unconfigured network and implement a multi-layered security strategy to harden the entire switched infrastructure. The goal was to move beyond basic connectivity and build an enterprise-ready, secure, and resilient access layer, demonstrating mastery of modern switch security best practices.
 
 ## 2. Network Topology
-![Network Topology Diagram](assets/final_topology.png)
+![Network Topology Diagram](assests/final_topology.png)
 
 ## 3. Key Security Features & Technologies Implemented
 This project implemented a comprehensive suite of Layer 2 security features to create a defense-in-depth posture:
@@ -44,8 +44,8 @@ BPDU Guard: Enabled on all PortFast-enabled ports to immediately shut down a por
 ## 4. Verification
 The success of the project was verified through a series of show commands demonstrating each security feature's operational state, and by confirming full end-to-end connectivity for legitimate devices while ensuring all security policies were active.
 
-![Verification Screenshots](assets/S1_port-security.png)
+![Verification Screenshots](assests/S1_port-security.png)
 
-![Verification Screenshots](assets/S2_port-security.png)
+![Verification Screenshots](assests/S2_port-security.png)
 
-![Verification Screenshots](assets/S2_dhcp-snooping.png)
+![Verification Screenshots](assests/S2_dhcp-snooping.png)
